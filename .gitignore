@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints and Models
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+
+# Large Satellite Data and Patches
+*.tif
+*.tiff
+*.npy
+*.npz
+data/patches/
+data/scenes/
+data/*
+!data/.gitkeep
+
+# Evaluation plots and figures
+*.png
+*.jpg
+*.jpeg
+!assets/**
+
+# IDEs and Environments
+.vscode/
+.idea/
+.venv/
+venv/
+env/
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
